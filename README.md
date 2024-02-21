@@ -21,5 +21,7 @@ A new version of the recipes table with nutrition facts and prices will appear i
 To-Do:
 ------
 [ ] Create script that prompts user when inputing new ingredient
+
 [ ] Create script that prompts user to input new recipe
+
 [ ] Create script that prompts user to input new recipe-ingredient combination

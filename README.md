@@ -17,3 +17,9 @@ Once updated, in command line:
 - git push
 
 A new version of the recipes table with nutrition facts and prices will appear in the recipes folder with todays date.
+
+To-Do:
+------
+[ ] Create script that prompts user when inputing new ingredient
+[ ] Create script that prompts user to input new recipe
+[ ] Create script that prompts user to input new recipe-ingredient combination

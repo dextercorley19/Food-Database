@@ -2,6 +2,7 @@ import pandas as pd
 import warnings
 import datetime
 import os
+import os
 warnings.filterwarnings("ignore")
 
 ingredients = pd.read_csv('food_database/ingredients-Ingredients.csv')

@@ -2,7 +2,6 @@ import pandas as pd
 import warnings
 import datetime
 import os
-import os
 warnings.filterwarnings("ignore")
 
 ingredients = pd.read_csv('food_database/ingredients-Ingredients.csv')
@@ -48,8 +47,6 @@ recipes['total_fat_per_serving'] = recipes.apply(lambda row: row['total_fat_per_
 recipes['Cholesterol_per_serving'] = recipes.apply(lambda row: row['Cholesterol_per_dish'] / row['Servings'], axis=1)
 recipes['sodium_per_serving'] = recipes.apply(lambda row: row['sodium_per_dish'] / row['Servings'], axis=1)
 recipes['price_per_serving'] = recipes.apply(lambda row: row['price_per_dish'] / row['Servings'], axis=1)
-
-recipes = recipes.drop(['Unnamed: 8'], axis=1)
 
 # Get today's date
 today = datetime.date.today()
